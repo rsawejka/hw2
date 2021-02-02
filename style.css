@@ -80,14 +80,18 @@ html {
 a href:active{
 	color: red;
 }
+/**
+style for the header
+**/
 .myHead{
-	border-top: 5px solid red;
+	border-top: 5px solid black;
 	display: flex;
-	box-shadow: 2px 2px 2px 2px rgb(211,211,211);
+	box-shadow: 1px 1px 1px 1px rgb(210,210,210);
 	position: fixed;
 	width: 100%;
 	z-index: 1;
 }
+
 .head-left{
 	color: white;
 	font-size: 45px;
@@ -136,12 +140,17 @@ a href:active{
 	margin-left: 15px;
 }
 
-
+/*
+main flex
+*/
 .mainFlexMenu{
 	display: flex;
 	flex-direction: row;
 
 }
+/*
+poseted on styles
+*/
 .posted-on{
 	position: absolute;
 	margin-top: 60px;
@@ -150,6 +159,9 @@ a href:active{
 	padding: 7px 7px 7px 17px;
 	border-radius: 0px 20px 20px 0px;
 }
+/*
+single content flex box
+*/
 .singleContentLeft{
 	padding-top: 150px;
 	margin-left: 400px;
@@ -173,10 +185,11 @@ a href:active{
 .LongSideBarWrapperRight{
 	margin-left: 30px;
 }
+
 .randImage{
-	border-radius: 70px;
-	height: 120px;
-	width: 120px;
+	border-radius: 64px;
+	height: 110px;
+	width: 110px;
 
 }
 .contReading{
@@ -266,13 +279,15 @@ body {
 	border-bottom: 1px solid grey;
 	padding-bottom: 15px;
 }
+
 .widget-title{
 	font-family: 'Lato', sans-serif !important;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	color: black;
 }
 
 .tagcloud a{
-	background-color: rgb(211, 211, 211, .5);
+	background-color: rgba(211, 211, 211, .5);
 	color: black;
 	font-size: .7em !important;
 	font-weight: bold;
