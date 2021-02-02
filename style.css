@@ -80,6 +80,9 @@ html {
 a href:active{
 	color: red;
 }
+/**
+style for the header
+**/
 .myHead{
 	border-top: 5px solid black;
 	display: flex;
@@ -88,6 +91,7 @@ a href:active{
 	width: 100%;
 	z-index: 1;
 }
+
 .head-left{
 	color: white;
 	font-size: 45px;
@@ -136,12 +140,17 @@ a href:active{
 	margin-left: 15px;
 }
 
-
+/*
+main flex
+*/
 .mainFlexMenu{
 	display: flex;
 	flex-direction: row;
 
 }
+/*
+poseted on styles
+*/
 .posted-on{
 	position: absolute;
 	margin-top: 60px;
@@ -150,6 +159,9 @@ a href:active{
 	padding: 7px 7px 7px 17px;
 	border-radius: 0px 20px 20px 0px;
 }
+/*
+single content flex box
+*/
 .singleContentLeft{
 	padding-top: 150px;
 	margin-left: 400px;
