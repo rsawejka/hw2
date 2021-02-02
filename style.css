@@ -279,13 +279,15 @@ body {
 	border-bottom: 1px solid grey;
 	padding-bottom: 15px;
 }
+
 .widget-title{
 	font-family: 'Lato', sans-serif !important;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	color: black;
 }
 
 .tagcloud a{
-	background-color: rgb(211, 211, 211, .5);
+	background-color: rgba(211, 211, 211, .5);
 	color: black;
 	font-size: .7em !important;
 	font-weight: bold;
