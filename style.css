@@ -81,9 +81,9 @@ a href:active{
 	color: red;
 }
 .myHead{
-	border-top: 5px solid red;
+	border-top: 5px solid black;
 	display: flex;
-	box-shadow: 2px 2px 2px 2px rgb(211,211,211);
+	box-shadow: 1px 1px 1px 1px rgb(210,210,210);
 	position: fixed;
 	width: 100%;
 	z-index: 1;
