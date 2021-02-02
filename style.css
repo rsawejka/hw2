@@ -185,10 +185,11 @@ single content flex box
 .LongSideBarWrapperRight{
 	margin-left: 30px;
 }
+
 .randImage{
-	border-radius: 70px;
-	height: 120px;
-	width: 120px;
+	border-radius: 64px;
+	height: 110px;
+	width: 110px;
 
 }
 .contReading{
