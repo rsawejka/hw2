@@ -25,6 +25,7 @@ get_header();
 
     <?php
     the_post();
+    the_post();
     ?>
     <?php
     echo "<div>";
@@ -34,6 +35,7 @@ get_header();
 		<?php
 
 
+            the_content();
             the_content();
 
 
